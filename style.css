@@ -6,3 +6,25 @@
   /* Do I need to change box-sizing as a reset? */
   box-sizing: border-box; 
 }
+
+h1 {
+  font-size: 1.6rem;
+}
+
+li, button, label, input, p {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+h4, h5 {
+  font-size: 1.75rem;
+}
+
+/* Nav Styling with HERO */
