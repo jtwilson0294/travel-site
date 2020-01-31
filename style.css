@@ -27,4 +27,35 @@ h4, h5 {
   font-size: 1.75rem;
 }
 
+a {
+  color: white;
+  text-decoration: none; 
+}
+
+/* :hover is a pseudoclass */
+a:hover {
+  text-decoration: underline;
+}
+
 /* Nav Styling with HERO */
+.main-head {
+  background-color: #131c27;
+}
+
+nav {
+  color: white;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+#logo {
+  flex: 1 1 50vw;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 50vw;
+}
