@@ -37,6 +37,16 @@ a:hover {
   text-decoration: underline;
 }
 
+button {
+  border: none;
+  background: #186fda;
+  padding: 1.25rem 3.75rem;
+  color: white;
+  font-size: 1.125rem;
+  /* This changes the mouse cursor to a 'click' finger cursor when hovering */
+  cursor: pointer;
+}
+
 /* Nav Styling with HERO */
 .main-head {
   background-color: #131c27;
@@ -44,18 +54,45 @@ a:hover {
 
 nav {
   color: white;
-  min-height: 10vh;
   display: flex;
   align-items: center;
+
+  /* Margin: auto will fill available space based on width */
   width: 90%;
   margin: auto;
+  /* Padding ensures some size and the min-height will allow it to grow */
+  padding: 1.25rem;
+  min-height: 10vh;;
 }
 
 #logo {
-  flex: 1 1 50vw;
+  flex: 2 1 25rem;
 }
 
 nav ul {
   display: flex;
-  flex: 1 1 50vw;
+  flex: 1 1 25rem;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero {
+  min-height: 90vh;
+  /* background can be chained with image and gradient */
+  background: linear-gradient(rgba(0,0,0,0.5), transparent),url('./img/landing-page.jpg');
+  background-repeat: no-repeat;
+  /* Will resize and fill in area */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h3 {
+  padding: 3.125rem;
 }
