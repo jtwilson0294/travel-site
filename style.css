@@ -2,9 +2,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
   /* Do I need to change box-sizing as a reset? */
   box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -21,6 +24,7 @@ h2 {
 
 h3 {
   font-size: 1.9rem;
+  font-weight: 400;
 }
 
 h4, h5 {
@@ -47,6 +51,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: #054ea7;
+}
+
 /* Nav Styling with HERO */
 .main-head {
   background-color: #131c27;
@@ -67,6 +75,8 @@ nav {
 
 #logo {
   flex: 2 1 25rem;
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
 }
 
 nav ul {
@@ -75,6 +85,7 @@ nav ul {
   list-style: none;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero {
