@@ -94,7 +94,7 @@ nav ul {
   background: linear-gradient(rgba(0,0,0,0.5), transparent),url('./img/landing-page.jpg');
   background-repeat: no-repeat;
   /* Will resize and fill in area */
-  background-size: cover;
+  background-size: cover ;
   background-position: center;
   color: white;
   display: flex;
@@ -108,8 +108,26 @@ nav ul {
   padding: 3.125rem;
 }
 
-/* City Section */
-.city h2 {
-  font-size: 2rem;
+/* Locations Section */
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), transparent),url("./img/new-york-page.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;  
+}
+
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+
+.locations-head h2 {
+  padding: 1rem 0rem;
   text-decoration: underline;
+}
+
+.locations-head h3 {
+  padding: 2rem 0rem;
 }
