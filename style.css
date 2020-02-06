@@ -49,10 +49,14 @@ button {
   font-size: 1.125rem;
   /* This changes the mouse cursor to a 'click' finger cursor when hovering */
   cursor: pointer;
+  /* This is looking for what changes in the pseudoclass */
+  transition: background,outline 0.2s ease;
 }
 
 button:hover {
-  background: #054ea7;
+  background: #131C27;
+  /* outline is similar to border except it takes up no space. A border here would shift the content above it */
+  outline: solid white ;
 }
 
 /* Nav Styling with HERO */
@@ -115,7 +119,8 @@ nav ul {
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: center;  
+  align-items: center;
+  position: relative;  
 }
 
 .locations-head {
@@ -130,4 +135,21 @@ nav ul {
 
 .locations-head h3 {
   padding: 2rem 0rem;
+}
+
+.cloud {
+  /* This 'removes' the item from the document so it no longer affects the position of other content */
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.moving-cloud-1 {
+  opacity: 0.8;
+}
+
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
 }
