@@ -107,3 +107,9 @@ nav ul {
 .hero h3 {
   padding: 3.125rem;
 }
+
+/* City Section */
+.city h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
