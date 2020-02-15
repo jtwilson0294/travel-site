@@ -137,6 +137,8 @@ nav ul {
 
 .locations-head h3 {
   padding: 2rem 0rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .cloud {
@@ -182,6 +184,8 @@ nav ul {
 
   .cloud {
     height: 20rem;
+    /* Stops image grab from happening */
+    pointer-events: none;
   }
 
 }
