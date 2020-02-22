@@ -197,15 +197,27 @@ nav ul {
   flex-wrap: wrap;
 }
 
+.cards img {
+  height: 100px;
+  max-width: 15%;
+  margin: 1.8rem;
+}
+
+.img-container {
+  background-color: #164072;
+}
+
 .card {
-  background: gray;
+  /* Two box shadows separated by commas allows for box-shadow transitions or gradients. RGBA was used for color to reduce the intensity of the shadow */
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
   flex: 1 1 20rem;
   min-height: 40vh;
   margin: 1.6rem 3.2rem;
+  text-align: center;
 }
 
-.cards img {
-  height: 100px;
+.card h4, p {
+  padding: 0.8rem;
 }
 
 
