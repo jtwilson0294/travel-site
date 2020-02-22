@@ -188,7 +188,25 @@ nav ul {
   padding: 0.8rem;
 }
 
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.card {
+  background: gray;
+  flex: 1 1 20rem;
+  min-height: 40vh;
+  margin: 1.6rem 3.2rem;
+}
+
+.cards img {
+  height: 100px;
+}
 
 
 /* MEDIA QUERIES */
