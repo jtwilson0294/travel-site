@@ -9,5 +9,5 @@ Follow this link to view the site based on the `master` branch:
 
 ## TODO
 
-- Add media queries for resizing
+- Add alt text, etc. for accessibility
 - Check out <https://formspree.io> for submitting actual forms
