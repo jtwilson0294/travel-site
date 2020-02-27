@@ -238,7 +238,7 @@ nav ul {
 .form-wrapper {
   background: rgba(0, 0, 0, 0.9);
   width: 60%;
-  border-radius: 20px;;
+  border-radius: 20px;
 }
 
 .form-head {
@@ -317,6 +317,12 @@ footer h5 {
   }
 }
 
+@media screen and (max-width: 605px) {
+  .form-wrapper {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 450px) {
 
   .cloud {
@@ -324,4 +330,27 @@ footer h5 {
     /* Stops image grab from happening */
     pointer-events: none;
   }
+
+  .form-wrapper {
+    width: 100%;
+    border-radius: 0px;
+    height: 100vh;
+  }
+
+  .form-wrapper button {
+    width: 50%;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 4rem;
+    display: block;
+  }
+
+  .footer-wrapper {
+    padding: 0.8rem;
+  }
+
+  .footer-wrapper h5 {
+    padding-bottom: 0.8rem;
+  }
+
 }
