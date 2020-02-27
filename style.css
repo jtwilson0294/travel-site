@@ -56,7 +56,7 @@ button {
 button:hover {
   background: #131C27;
   /* outline is similar to border except it takes up no space. A border here would shift the content above it */
-  outline: solid white ;
+  /* outline: solid white ; */
 }
 
 /* Nav Styling with HERO */
@@ -220,6 +220,51 @@ nav ul {
   padding: 0.8rem;
 }
 
+/* Contact Section */
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), transparent),url(./img/contact-mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.form-wrapper {
+  background: rgba(0, 0, 0, 0.9);
+  width: 60%;
+  border-radius: 20px;;
+}
+
+.form-head {
+  text-align: center;
+  padding: 3rem;
+}
+
+.name-form, .email-form {
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 0rem 1.8rem;
+  font-size: 1.8rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 1.8rem;
+  margin-top: 5rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* This gives more room in the actual input field */
+.form-wrapper input {
+  padding: 0.8rem 2rem;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
