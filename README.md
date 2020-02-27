@@ -5,7 +5,7 @@ Dev Ed website project
 ## Github Pages
 
 Follow this link to view the site based on the `master` branch:
-https://jtwilson0294.github.io/travel-site/
+<https://jtwilson0294.github.io/travel-site/>
 
 ## TODO
 
